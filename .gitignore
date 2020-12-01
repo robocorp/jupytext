@@ -27,3 +27,5 @@ demo/get_started.ipynb
 .history
 .vscode/*
 !.vscode/*.template
+
+publish/node_modules
