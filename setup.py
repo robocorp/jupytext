@@ -55,7 +55,7 @@ jstargets = [
 ]
 
 cmdclass = create_cmdclass(
-    "jsdeps", package_data_spec={"jupytext": ["*"]}, data_files_spec=data_files_spec
+    "jsdeps", package_data_spec={"jupytext": ["nbextension/**"]}, data_files_spec=data_files_spec
 )
 
 cmdclass["jsdeps"] = combine_commands(
